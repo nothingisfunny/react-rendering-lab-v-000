@@ -38,4 +38,7 @@ export default class Pikachu extends React.Component {
       </div>
     )
   }
+  componentDidUpdate(){
+    this.resizePikachu()
+  }
 }
